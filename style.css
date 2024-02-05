@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f2ed;
+}
+
+h1 {
+  margin-left: 25px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: large;
+  font-weight: lighter;
+  margin-bottom: -0.5rem;
+}
+
+h2 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: medium;
+  font-weight: 900;
+  margin-bottom: -1.3rem;
+}
+
+h4 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-size: small;
+  font-weight: lighter;
+  margin-top: 1.2rem;
+}
+
+h5 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  margin-left: 10px;
+  margin-top: 4px;
+  color: white;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.rabat {
+  background-color: rgb(207, 37, 37);
+  border-radius: 8px;
+  width: 100%;
+  height: 60%;
+}
+
+.udsolgt {
+  background-color: rgb(90, 70, 62);
+  border-radius: 8px;
+  width: 100%;
+  height: 60%;
+}
+
+.udsalg h2 {
+  color: red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.smallProduct,
+.smallProduct onSale {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;*/
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+}
+
+.smallProduct img,
+.smallProduct onSale img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.smallProduct soldOut img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  opacity: 40%;
+}
+
+.smallProduct soldOut {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;*/
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+  opacity: 65%;
+}
