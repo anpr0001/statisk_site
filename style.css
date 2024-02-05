@@ -2,12 +2,16 @@
   box-sizing: border-box;
 }
 
+.mainNav {
+  margin: 2rem;
+}
+
 body {
   background-color: #f8f2ed;
+  margin: 2rem;
 }
 
 h1 {
-  margin-left: 25px;
   margin-top: 30px;
   font-family: "Roboto", sans-serif;
 }
@@ -16,14 +20,18 @@ h3 {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: large;
   font-weight: lighter;
-  margin-bottom: -0.5rem;
+  margin-bottom: 0rem;
+}
+
+p {
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 h2 {
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-size: medium;
   font-weight: 900;
-  margin-bottom: -1.3rem;
+  margin-bottom: 0.5rem;
 }
 
 h4 {
@@ -35,9 +43,19 @@ h4 {
 
 h5 {
   font-family: "M PLUS Rounded 1c", sans-serif;
-  margin-left: 10px;
   margin-top: 4px;
   color: white;
+}
+
+dt {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+dd {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  margin-bottom: 0.8rem;
 }
 
 .container {
@@ -69,7 +87,6 @@ h5 {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-top: 20px;
-  margin-left: 25px;
   margin-right: 25px;
 }
 
@@ -111,4 +128,12 @@ h5 {
   border-radius: 8px;
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
   opacity: 65%;
+}
+
+img {
+  height: auto;
+  width: 40%;
+}
+.purchaseBox {
+  background-color: white;
 }
